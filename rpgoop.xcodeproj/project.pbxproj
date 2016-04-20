@@ -13,6 +13,7 @@
 		492233B41CC6FD2700A548D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492233B31CC6FD2700A548D0 /* Assets.xcassets */; };
 		492233B71CC6FD2700A548D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492233B51CC6FD2700A548D0 /* LaunchScreen.storyboard */; };
 		492233BF1CC6FEC400A548D0 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492233BE1CC6FEC400A548D0 /* Character.swift */; };
+		492233C11CC756C800A548D0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492233C01CC756C800A548D0 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		492233B61CC6FD2700A548D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492233B81CC6FD2700A548D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		492233BE1CC6FEC400A548D0 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		492233C01CC756C800A548D0 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				492233B51CC6FD2700A548D0 /* LaunchScreen.storyboard */,
 				492233B81CC6FD2700A548D0 /* Info.plist */,
 				492233BE1CC6FEC400A548D0 /* Character.swift */,
+				492233C01CC756C800A548D0 /* Player.swift */,
 			);
 			path = rpgoop;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492233C11CC756C800A548D0 /* Player.swift in Sources */,
 				492233BF1CC6FEC400A548D0 /* Character.swift in Sources */,
 				492233AF1CC6FD2700A548D0 /* ViewController.swift in Sources */,
 				492233AD1CC6FD2700A548D0 /* AppDelegate.swift in Sources */,
@@ -292,6 +296,7 @@
 				492233BD1CC6FD2700A548D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
