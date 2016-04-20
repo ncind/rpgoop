@@ -28,7 +28,9 @@ class Player: Character{
     }
     
     //convinience init (overloaded constructor)
+    // Really useful in Sub Classes
     convenience init(name: String, hp: Int, attackPwr: Int){
+        
         self.init(startingHp: hp, attackPwr: attackPwr)
         
         self._name = name
