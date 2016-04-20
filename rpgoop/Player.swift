@@ -27,6 +27,10 @@ class Player: Character{
         }
     }
     
+    func addItemToInventory(item: String){
+        _inventory.append(item)
+    }
+    
     //convinience init (overloaded constructor)
     // Really useful in Sub Classes
     convenience init(name: String, hp: Int, attackPwr: Int){
