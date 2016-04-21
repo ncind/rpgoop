@@ -42,6 +42,7 @@ class ViewController: UIViewController {
         }
         
         enemyImg.hidden = false
+        enemyHpLbl.text = "\(enemy.hp) HP"
         
     }
     

@@ -12,12 +12,12 @@ class Character {
     
     //Private Variables
     private var _hp: Int = 100
-    private var _attachPwr: Int = 10
+    private var _attackPwr: Int = 10
     
     //Computed Properties - Properties that have computation in them
     var attackPwr: Int{
         get{
-            return _attachPwr
+            return _attackPwr
         }
     }
     
@@ -39,7 +39,7 @@ class Character {
     
     init(startingHp: Int, attackPwr: Int){
         self._hp = startingHp
-        self._attachPwr = attackPwr
+        self._attackPwr = attackPwr
     }
     
     func attempAttack(attackPwr: Int) -> Bool{
